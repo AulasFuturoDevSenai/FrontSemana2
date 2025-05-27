@@ -21,3 +21,11 @@ footer {
     height: 30px;
     padding: 20px;
 }
+
+a {
+text-decoration: none;
+}
+
+a:hover{
+    color: slateblue;
+}
