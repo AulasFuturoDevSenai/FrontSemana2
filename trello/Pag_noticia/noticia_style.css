@@ -1,0 +1,23 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+header{
+    padding-left: 20px;
+}
+
+nav{
+    padding-left: 20px;
+}
+main{
+    height: 80%;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(228, 226, 226);
+    height: 30px;
+    padding: 20px;
+}
