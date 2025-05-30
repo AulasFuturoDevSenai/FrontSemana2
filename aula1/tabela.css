@@ -13,8 +13,8 @@ th, td {
 }
 
 thead{
-    background-color: bisque;
-    color: black;
+background-color: bisque;
+color: black;
 }
 
 tbody tr:nth-child(even) {
