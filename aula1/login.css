@@ -1,0 +1,31 @@
+fieldset {
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    padding: 28px 16px;
+    margin-bottom: 32px;
+}
+
+#senha, #email, #telefone {
+    margin-top: 24px;
+}
+
+button {
+    cursor: pointer;
+    height: 35px;
+    width: 115px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: black;
+}
+
+#cadastro, #voltar {
+    border: 1px solid cornflowerblue;
+    background-color: transparent;
+    color: cornflowerblue;
+}
+
+#entrar, #cadastrar{
+    border: none;
+    background-color: cornflowerblue;
+    color: bisque;
+}
