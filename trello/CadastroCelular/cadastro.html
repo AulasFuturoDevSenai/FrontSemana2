@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
+    <div  class="container">
     <header>
         <h1>Cadastro de celulares</h1>
     </header>
@@ -20,9 +21,33 @@
                 <option value="lg">LG</option>
                 <option value="outra">Outra</option>
             </select>
+            <label for="modelo">Modelo:</label>
+            <input type="text" id="modelo" name="modelo" required>
+
+            <label for="cor">Cor:</label>
+            <input type="text" id="cor" name="cor" required>
+
+            <label for="valor">Valor (R$): </label>
+            <input type="number" id="valor" name="valor" required>
+
+            <label> Condição: </label>
+            <div class="grupo-radio">
+                <label><input type="radio" name="condiçao" value="novo" required>Novo</label>
+                <label><input type="radio" name="condicao" value="usado">Usado</label> 
+            </div>
+
+            <label for="info">Demais informações:</label>
+            <textarea id="info" name="info" rows="4"></textarea>
+
+            <div class="grupo-botao">
+                <button type="submit">Salvar</button>
+                <button type="button" onclick="history.back()">Voltar</button>
+            </div>
+
+
         </form>
     </main>
-
+    </div>
     <footer></footer>
     
 </body>
