@@ -4,6 +4,22 @@ body{
     margin: 0;
     padding: 20px;
 }
+.cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.cabecalho img {
+    height: 80px; /* ajuste conforme o tamanho do logo */
+}
+
+.cabecalho h1 {
+    margin: 0;
+    color: #333;
+}
 
 .container{
     max-width: 500px;
